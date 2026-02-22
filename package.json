@@ -1,0 +1,28 @@
+{
+  "name": "mcp-search-server",
+  "version": "1.0.0",
+  "description": "免费搜索MCP服务器 - 使用SearxNG",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "node test_search.js"
+  },
+  "keywords": [
+    "mcp",
+    "search",
+    "searxng"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.1.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.3"
+  }
+}
