@@ -36,6 +36,7 @@
 ```bash
 docker run -d \
   --name searxng \
+  --restart=always \
   -p 8888:8080 \
   -e "BASE_URL=http://localhost:8888/" \
   searxng/searxng:latest
